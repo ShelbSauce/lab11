@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.angularjs.org/1.5.3/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.3/angular-route.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <title>Lab 11</title>
+  </head>
+  <body ng-app="myModule"
+  ng-controller="myController">
+    <h1>Animals</h1>
+    <a href="index.html">Home</a>
+    <br>
+    <a href="#/view1">Kitty</a> | <a href="#/view2">Puppy</a> | <a href="#/view3">Hedgehog</a> | <a href="#/view4">Kuokka</a>
+    <ng-view></ng-view>
+  </body>
+</html>
